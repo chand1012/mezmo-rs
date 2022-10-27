@@ -1,0 +1,14 @@
+[package]
+name = "mezmo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gethostname = "0.3.0"
+reqwest = { version = "0.11.12", features = ["blocking", "json"] }
+serde = { version = "1.0.130", features = ["derive"] }
+
+[dev-dependencies]
+tokio-test = "*"
