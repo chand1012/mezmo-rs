@@ -5,6 +5,7 @@ edition = "2021"
 license = "MIT"
 homepage = "https://github.com/chand1012/mezmo-rs"
 repository = "https:://github.com/chand1012/mezmo-rs"
+description = "Use Mezmo with Rust!"
 exclude = ["Justfile"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
